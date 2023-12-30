@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 import pickle
 
-file_path = r"C:\Users\navee\Downloads\loan_model (1).sav"
+file_path = r"loan_model (1).sav"
 
 # Open the file in binary mode ('rb')
 model = pickle.load(open(file_path, 'rb'))
