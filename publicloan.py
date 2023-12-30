@@ -3,7 +3,7 @@ from PIL import Image
 import pickle
 import os 
 
-file_path = r'loan_model (1).sav'
+file_path = r"D:\ui vs\loan_model (1).sav"
 
 # Open the file in binary mode ('rb')
 model = pickle.load(open(file_path, 'rb'))
