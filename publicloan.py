@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 import pickle
+import os 
 
 file_path = r'loan_model (1).sav'
 
